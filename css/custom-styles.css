@@ -1,0 +1,132 @@
+:root {
+  --cadet-gray: #7e9897ff;
+  --sage: #b7b980ff;
+  --saffron: #f6c93cff;
+  --salmon: #d87466ff;
+  --timberwolf: #d8d4d1ff;
+  --melon: #e3a090ff;
+}
+
+.cadet-gray {
+  background-color: var(--cadet-gray);
+}
+
+.saffron {
+  background-color: var(--saffron);
+}
+
+.salmon {
+  background-color: var(--salmon);
+}
+
+.timberwolf {
+  background-color: var(--timberwolf);
+}
+
+.sage {
+  background-color: var(--sage);
+}
+
+.melon {
+  background-color: var(--melon);
+}
+
+.outfit-100 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.outfit-300 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.outfit-500 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.outfit-700 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.outfit-900 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PixeBoy";
+  src: url("../assets/fonts/Pixeboy-z8XGD.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VCR";
+  src: url("../assets/fonts/VCR_OSD_MONO_1.001.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "headerfont";
+  src: url("../assets/fonts/04B_30__.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pixefont {
+  font-family: PixeBoy, sans-serif;
+}
+.vcrfont {
+  font-family: VCR, sans-serif;
+}
+.headerfont {
+  font-family: headerfont, sans-serif;
+}
+
+.img-school-icon {
+  align-self: center;
+  max-width: 8rem;
+  max-height: 8rem;
+}
+
+.heading {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.subheading {
+  font-family: "Outfit", sans-serif;
+  color: grey;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.subheading:hover {
+  font-family: "Outfit", sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.resume-date {
+  font-family: "Outfit", sans-serif;
+  color: black;
+  font-size: 1rem;
+}
